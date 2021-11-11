@@ -1,1 +1,7 @@
-https://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@github.com/elghali/AspnetMicroservices.git
+https://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@github.com/elghali/AspnetMicroservices.git
+
+if Token expired:
+generate new token from profile settings -> Developer Settings -> Personal Access Tokens
+git remote -v
+git remote remove origin
+git remote add origin git@github.com:user/repo.git
