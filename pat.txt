@@ -1,7 +1,10 @@
-https://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@github.com/elghali/AspnetMicroservices.git
+https://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@github.com/elghali/AspnetMicroservices.git
 
 if Token expired:
 generate new token from profile settings -> Developer Settings -> Personal Access Tokens
 git remote -v
 git remote remove origin
 git remote add origin git@github.com:user/repo.git
+
+Git Credential Manager:
+https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/1.20.0
