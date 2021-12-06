@@ -16,7 +16,7 @@ namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
         public GetOrdersListQueryHandler(IOrderRepository orderRepository, IMapper mapper)
         {
             _orderRepository = orderRepository ?? throw new ArgumentNullException(nameof(orderRepository));
-            mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
         public async Task<List<OrdersVm>> Handle(GetOrdersListQuery request, 

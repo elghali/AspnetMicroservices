@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ordering.Infrastructure.Persistence
 {
-    class OrderContextSeed
+    public class OrderContextSeed
     {
         public static async Task SeedAsync(OrderContext orderContext, ILogger<OrderContextSeed> logger)
         {
@@ -23,7 +23,7 @@ namespace Ordering.Infrastructure.Persistence
         {
             return new List<Order>
             {
-                new Order() {UserName = "swm", FirstName = "Elias", LastName = "Ghali", EmailAddress = "elghali464@gmail.com", AddressLine = "Minoos", Country = "Greece", TotalPrice = 350 }
+                new Order() {UserName = "swn", FirstName = "Elias", LastName = "Ghali", EmailAddress = "elghali464@gmail.com", AddressLine = "Minoos", Country = "Greece", TotalPrice = 350 }
             };
         }
     }
